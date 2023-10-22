@@ -1,5 +1,5 @@
 const properties = {
-    imageBaseURL:''
+    imageBaseURL:'/images/Designs'
 }
 
 export {properties}

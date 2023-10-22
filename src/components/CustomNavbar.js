@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from '../images/home/spread_the_word.png'
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faWhatsapp, faInstagram} from '@fortawesome/free-brands-svg-icons'
 
@@ -10,7 +10,7 @@ function CustomNavbar() {
 <nav class="border-gray-200 bg-[#22c55e] dark:bg-gray-800 dark:border-gray-700" style={{backgroundColor:'#22c55e'}}>
   <div class=" flex flex-wrap items-center justify-between mx-auto p-4">
     <a href="#" class="flex items-center">
-        <img src={logo} class="h-12 mr-3" alt="spread_the_word Logo" />
+        <img src={process.env.PUBLIC_URL + '/images/home/spread_the_word.png'} class="h-12 mr-3" alt="spread_the_word Logo" />
         <span style={{color:'white', fontFamily:'serif', fontSize:30}}>SpreadTheWord-Wear</span>
     </a>
     <div id="navbar-solid-bg">

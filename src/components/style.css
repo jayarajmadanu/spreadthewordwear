@@ -4,7 +4,21 @@
     height:50%;
     margin: 2px;
 }
+.ItemPageImageDiv{
+    width: 40%;
+    height: 300px;
+    padding-top: 10px;
+    float: left;
+}
 
+.ItemPage{
+    
+}
+.ItemPageDescription{
+    float: left;
+    margin: auto;
+    width: 50%;
+}
 
 @media only screen and (max-width: 600px) {
     .cardEle {
@@ -12,6 +26,21 @@
         width:48%;
         height:45%;
         margin: 2px;
+    }
+    .ItemPageImageDiv{
+        
+        height: 300px;
+        padding-top: 10px;
+        display:flex;
+        flex-direction: column;
+        
+    }
+    .ItemPageDescription{
+        
+        margin: auto;
+        display:flex;
+        flex-direction: column;
+        
     }
 }
 
@@ -21,6 +50,17 @@
         width:33%;
         height:50%;
         margin: 2px;
+    }
+    .ItemPageImageDiv{
+        
+        height: 300px;
+        padding-top: 10px;
+        
+    }
+    .ItemPageDescription{
+        
+        margin: auto;
+        
     }
 }
 

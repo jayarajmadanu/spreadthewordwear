@@ -7,7 +7,7 @@ const data = {
             theme:"xyz",
             availability:true,
             sizes:[{S:true},{M:true},{L:true},{XL:false}, {XXL:false}],
-            images:['../images/Designs/Immanuel/Immanuel_F.jpg', '../images/Designs/Immanuel/Immanuel Post F.jpg', '../images/Designs/Immanuel/Immanuel Post.jpg', '../images/Designs/Immanuel/Immanuel_B.jpg']
+            images:['/Immanuel/Immanuel_F.jpg', '/Immanuel/Immanuel Post F.jpg', '/Immanuel/Immanuel Post.jpg', '/Immanuel/Immanuel_B.jpg']
         },
         popye:{
             name:"popye",
@@ -16,7 +16,7 @@ const data = {
             theme:"xyz",
             availability:true,
             sizes:[{S:true},{M:true},{L:true},{XL:false}, {XXL:false}],
-            images:['../images/Designs/popye/popeye Back.jpg','../images/Designs/popye/popeye Front.jpg','../images/Designs/popye/popeye Post 1.jpg', '../images/Designs/popye/popeye Post.jpg']
+            images:['/popye/popeye Back.jpg','/popye/popeye Front.jpg','/popye/popeye Post 1.jpg', '/popye/popeye Post.jpg']
         },
         x3:{
             name:"x3",
