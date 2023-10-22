@@ -6,7 +6,7 @@ import { properties } from "../properties";
 function Card(props){
     return (
 <div   className="cardEle temp bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-    <a href={"/product?name=" + props.data.name}>
+    <a href={"/spreadthewordwear/product?name=" + props.data.name}>
         <img style={{width: '90%',height: '350px',display: 'inline-block',overflow: 'auto'}} src={process.env.PUBLIC_URL + properties.imageBaseURL + props.data.images[0]} alt="product image" />
     </a>
     <div className="px-5 pb-5">
