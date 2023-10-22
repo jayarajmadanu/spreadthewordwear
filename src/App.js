@@ -7,7 +7,7 @@ import ItemPage from './components/ItemPage';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/product' element={<ItemPage />} />
