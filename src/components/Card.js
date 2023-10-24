@@ -1,14 +1,18 @@
 import React from "react";
 import  "./style.css";
 import { properties } from "../properties";
+import { NavLink} from 'react-router-dom'
 
 
 function Card(props){
     return (
 <div   className="cardEle temp bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-    <a href={"/spreadthewordwear/product?name=" + props.data.name}>
+    {/*<a href={"/spreadthewordwear/product?name=" + props.data.name}>
         <img style={{width: '90%',height: '350px',display: 'inline-block',overflow: 'auto'}} src={process.env.PUBLIC_URL + properties.imageBaseURL + props.data.images[0]} alt="product image" />
-    </a>
+    </a>*/}
+    <NavLink to={"/product?name=" + props.data.name}>
+    <img style={{width: '90%',height: '350px',display: 'inline-block',overflow: 'auto'}} src={process.env.PUBLIC_URL + properties.imageBaseURL + props.data.images[0]} alt="product image" />
+    </NavLink>
     <div className="px-5 pb-5">
         <a href='#'>
             <h5 className="text-xl font-semibold tracking-tight text-gray-900 dark:text-white">{props.data.name}</h5>

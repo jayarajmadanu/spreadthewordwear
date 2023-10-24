@@ -6,13 +6,21 @@ import { BrowserRouter, Route, Routes, HashRouter } from 'react-router-dom';
 import ItemPage from './components/ItemPage';
 
 function App() {
-  return (
-    <BrowserRouter basename={process.env.PUBLIC_URL}>
+  //basename={process.env.PUBLIC_URL}
+  {/*<BrowserRouter basename="/spreadthewordwear">
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/product' element={<ItemPage />} />
       </Routes>
-    </BrowserRouter>
+  </BrowserRouter>*/}
+  return (
+   <HashRouter >
+        <Routes>
+        <Route  path="/" element={<Home></Home>} />
+        <Route  path="/product" element={<ItemPage></ItemPage> }/>
+        </Routes>
+        </HashRouter>
+  
   );
 }
 
