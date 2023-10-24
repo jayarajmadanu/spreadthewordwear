@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/spreadthewordwear/static/css/main.5aece9ec.css",
-    "main.js": "/spreadthewordwear/static/js/main.2ecf3c03.js",
+    "main.js": "/spreadthewordwear/static/js/main.9b19237d.js",
     "static/js/787.fbc8d06b.chunk.js": "/spreadthewordwear/static/js/787.fbc8d06b.chunk.js",
     "static/media/logo.svg": "/spreadthewordwear/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/spreadthewordwear/index.html",
     "main.5aece9ec.css.map": "/spreadthewordwear/static/css/main.5aece9ec.css.map",
-    "main.2ecf3c03.js.map": "/spreadthewordwear/static/js/main.2ecf3c03.js.map",
+    "main.9b19237d.js.map": "/spreadthewordwear/static/js/main.9b19237d.js.map",
     "787.fbc8d06b.chunk.js.map": "/spreadthewordwear/static/js/787.fbc8d06b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5aece9ec.css",
-    "static/js/main.2ecf3c03.js"
+    "static/js/main.9b19237d.js"
   ]
 }
