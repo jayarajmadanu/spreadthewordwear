@@ -14,7 +14,7 @@ function CardList() {
     })
     
     return(
-        <div style={{ display: "flex", flexWrap: "wrap" }}>
+        <div style={{ display: "flex", flexWrap: "wrap", backgroundColor:"#f0f4fa" }}>
             {cards}
         </div>
     )

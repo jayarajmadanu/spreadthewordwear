@@ -6,7 +6,7 @@ const data = {
             description:"abcd abcd abcd abcd abcd abcd abcd abcd abcd abcd abcd abcd abcd abcd abcd abcd abcd abcd abcd abcd abcd abcd abcd abcd abcd abcd abcd abcd ",
             theme:"xyz",
             availability:true,
-            sizes:[{S:true},{M:true},{L:true},{XL:false}, {XXL:false}],
+            sizes:[{size: 'S', availability:true},{size: 'M', availability:true},{size: 'L', availability:true},{size: 'XL', availability:false}, {size: 'XXL', availability:true}],
             images:['/Immanuel/Immanuel_F.jpg', '/Immanuel/Immanuel Post F.jpg', '/Immanuel/Immanuel Post.jpg', '/Immanuel/Immanuel_B.jpg']
         },
         popye:{
@@ -15,7 +15,7 @@ const data = {
             description:"abcd abcd abcd abcd abcd abcd abcd abcd abcd abcd abcd abcd abcd abcd abcd abcd abcd abcd abcd abcd abcd abcd abcd abcd abcd abcd abcd abcd ",
             theme:"xyz",
             availability:true,
-            sizes:[{S:true},{M:true},{L:true},{XL:false}, {XXL:false}],
+            sizes:[{size: 'S', availability:true},{size: 'M', availability:true},{size: 'L', availability:true},{size: 'XL', availability:false}, {size: 'XXL', availability:true}],
             images:['/popye/popeye Back.jpg','/popye/popeye Front.jpg','/popye/popeye Post 1.jpg', '/popye/popeye Post.jpg']
         },
         x3:{

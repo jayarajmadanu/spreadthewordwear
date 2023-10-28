@@ -7,9 +7,9 @@ function CustomNavbar() {
 
     return (
         
-<nav class="border-gray-200 bg-[#22c55e] dark:bg-gray-800 dark:border-gray-700" style={{backgroundColor:'#22c55e'}}>
+<nav class="border-gray-200 bg-[#22c55e] " style={{backgroundColor:'#22c55e'}}>
   <div class=" flex flex-wrap items-center justify-between mx-auto p-4">
-    <a href="#" class="flex items-center">
+    <a href="#" className="flex items-center" style={{textDecoration:'none'}}>
         <img src={process.env.PUBLIC_URL + '/images/home/spread_the_word.png'} class="h-12 mr-3" alt="spread_the_word Logo" />
         <span style={{color:'white', fontFamily:'serif', fontSize:30}}>SpreadTheWord-Wear</span>
     </a>

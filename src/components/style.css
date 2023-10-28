@@ -12,12 +12,13 @@
 }
 
 .ItemPage{
-    
+    background-color: blue
 }
 .ItemPageDescription{
     float: left;
     margin: auto;
     width: 50%;
+    
 }
 
 @media only screen and (max-width: 600px) {
@@ -28,26 +29,25 @@
         margin: 2px;
     }
     .ItemPageImageDiv{
-        
-        height: 300px;
+        width: 100%;
+        height: 50%;
         padding-top: 10px;
-        display:flex;
-        flex-direction: column;
-        
+
     }
     .ItemPageDescription{
         
         margin: auto;
-        display:flex;
-        flex-direction: column;
-        
+        width: 90%;
+    }
+    .ItemPage{
+        display: block;
     }
 }
 
 @media only screen and (min-width: 600px) and (max-width: 992px) {
     .cardEle {
         padding:10px;
-        width:33%;
+        width:30%;
         height:50%;
         margin: 2px;
     }
@@ -60,6 +60,7 @@
     .ItemPageDescription{
         
         margin: auto;
+        width: 80%;
         
     }
 }
